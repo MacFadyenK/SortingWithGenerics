@@ -1,2 +1,2 @@
 ## Sorting with Generics
-This program implements both merge and bubble sorting using generics. These sorting methods are demonstrated using arrays of Integer, Double, and String which serve demonstrate the versitality of generics.
+This program implements both merge and bubble sorting using generics. These sorting methods are demonstrated using arrays of Integer, Double, and String which serve to demonstrate the versitality of generics.
