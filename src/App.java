@@ -54,12 +54,12 @@ public class App<T extends Comparable<T>> {
             swapped = false;
             //inside loop: comparing elements in the array
             for(int j = 0; j< n-i-1; j++){
-                swapped = true;
                 //swaps elements if the first is larger than the second
                 if(arr[j].compareTo(arr[j+1])>0){
                     T temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+                    swapped = true;
                 }
             }
             //if array is sorted before passing array full amount of times
